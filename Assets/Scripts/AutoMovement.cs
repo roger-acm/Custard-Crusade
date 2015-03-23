@@ -5,7 +5,7 @@ using System.Collections;
 public class AutoMovement : MonoBehaviour
 {
 
-    public float speed = 0.05f;
+    //public float speed = 0.05f;
     //public Transform target;
 
     // use this for initialization
@@ -70,5 +70,26 @@ public class AutoMovement : MonoBehaviour
     //    //transform.localPosition += direction;
     //}
 
+    public float balloon_speed = 10f;
+    void update()
+    {
+        if (Cardboard.SDK.CardboardTriggered)
+        {
+            if (balloon_speed > 0)
+                balloon_speed = 0;
+            else
+                balloon_speed = 10f;
+        }
+       
+        transform.position += transform.forward * Time.deltaTime * balloon_speed;
+    }
+
+    void OnCardboardTrigger()
+    {
+        if (balloon_speed > 0)
+            balloon_speed = 0;
+        else
+            balloon_speed = 10f;
+    }
    
 }

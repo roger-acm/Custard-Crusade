@@ -49,6 +49,7 @@
      <Compile Include="Assets\Cardboard\Editor\CardboardEditor.cs" />
      <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Cardboard\Resources\GUIScreen.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
@@ -62,8 +63,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{AEDA81AB-A278-CF49-D5B4-56D5A3CC24C3}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{10DB64A1-91C1-F933-D19D-ED90D3A73B8F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{9DB994A8-11A8-6EC9-C140-6FAB7D286DB1}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>

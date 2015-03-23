@@ -3,9 +3,9 @@ using System.Collections;
 
 public class RandomGenerator : MonoBehaviour {
 	
-	public GameObject CandyCane;
+	public GameObject Sweet;
 	public int numberOfCubes = 10;
-	public int min = 1, max = 100;
+	public int min = -40, max = 40;
 	
 	void Start () {
 		PlaceCubes();
@@ -15,7 +15,7 @@ public class RandomGenerator : MonoBehaviour {
 	{
 		for(int i = 0; i < numberOfCubes;i++)
 		{
-			Instantiate(CandyCane,GeneratedPosition(),Quaternion.identity);
+            Instantiate(Sweet, GeneratedPosition(), Quaternion.identity);
 		}
 	}
 	Vector3 GeneratedPosition()
