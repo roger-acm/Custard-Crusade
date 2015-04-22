@@ -27,8 +27,8 @@ public class FPSInputController : MonoBehaviour
 	{
 		// Get the input vector from keyboard or analog stick
 		Vector3 directionVector;
-		if (!checkAutoWalk) { 
-			directionVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+		if (!checkAutoWalk) {
+            directionVector = new Vector3(Input.GetAxis("Horizontal"), 1, Input.GetAxis("Vertical"));
 		} else { 
 			directionVector = new Vector3(0, 0, 1);
 		}

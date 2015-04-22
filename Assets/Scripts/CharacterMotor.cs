@@ -241,7 +241,7 @@ public class CharacterMotor : MonoBehaviour
 		
 		// Find out how much we need to push towards the ground to avoid loosing grouning
 		// when walking down a step or over a sharp change in slope.
-		float pushDownOffset = Mathf.Max(controller.stepOffset, new Vector3(currentMovementOffset.x, 0, currentMovementOffset.z).magnitude);
+		float pushDownOffset = Mathf.Max(controller.stepOffset, new Vector3(currentMovementOffset.x, currentMovementOffset.y, currentMovementOffset.z).magnitude);
 		if(grounded)
 			currentMovementOffset -= pushDownOffset * Vector3.up;
 		
@@ -267,9 +267,9 @@ public class CharacterMotor : MonoBehaviour
 		
 		// Calculate the velocity based on the current and previous position.  
 		// This means our velocity will only be the amount the character actually moved as a result of collisions.
-		Vector3 oldHVelocity = new Vector3(velocity.x, 0, velocity.z);
+		Vector3 oldHVelocity = new Vector3(velocity.x, velocity.y, velocity.z);
 		movement.velocity = (tr.position - lastPosition) / Time.deltaTime;
-		Vector3 newHVelocity = new Vector3(movement.velocity.x, 0, movement.velocity.z);
+		Vector3 newHVelocity = new Vector3(movement.velocity.x, movement.velocity.y, movement.velocity.z);
 		
 		// The CharacterController can be moved in unwanted directions when colliding with things.
 		// We want to prevent this from influencing the recorded velocity.
@@ -387,7 +387,7 @@ public class CharacterMotor : MonoBehaviour
 		if(grounded && TooSteep())
 		{
 			// The direction we're sliding in
-			desiredVelocity = new Vector3(groundNormal.x, 0, groundNormal.z).normalized;
+			desiredVelocity = new Vector3(groundNormal.x, groundNormal.y, groundNormal.z).normalized;
 			// Find the input movement direction projected onto the sliding direction
 			var projectedMoveDir = Vector3.Project(inputMoveDirection, desiredVelocity);
 			// Add the sliding direction, the spped control, and the sideways control vectors

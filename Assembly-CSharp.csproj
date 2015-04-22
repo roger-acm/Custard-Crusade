@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9DB994A8-11A8-6EC9-C140-6FAB7D286DB1}</ProjectGuid>
+	<ProjectGuid>{2C976D96-FF9A-36AD-6DCF-99A2C090E414}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -60,16 +60,21 @@
      <Compile Include="Assets\CardboardSDK\CardboardEvent.cs" />
      <Compile Include="Assets\CardboardSDK\CardboardInput.cs" />
      <Compile Include="Assets\CardboardSDK\CardboardManager.cs" />
+     <Compile Include="Assets\Scripts\AutoMove2.cs" />
      <Compile Include="Assets\Scripts\AutoMovement.cs" />
      <Compile Include="Assets\Scripts\AutoRotate.cs" />
      <Compile Include="Assets\Scripts\AutoWalk.cs" />
      <Compile Include="Assets\Scripts\CardboardMagnetSensor.cs" />
      <Compile Include="Assets\Scripts\CharacterMotor.cs" />
      <Compile Include="Assets\Scripts\FPSInputController.cs" />
+     <Compile Include="Assets\Scripts\GameOverScore.cs" />
+     <Compile Include="Assets\Scripts\GuiTextHandler.cs" />
      <Compile Include="Assets\Scripts\MyCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerCounter.cs" />
      <Compile Include="Assets\Scripts\RandomGenerator.cs" />
+     <Compile Include="Assets\Scripts\StartMenu.cs" />
+     <Compile Include="Assets\Scripts\TimeRemainingScript.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Cardboard\Resources\GUIScreen.shader" />
@@ -80,7 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{10DB64A1-91C1-F933-D19D-ED90D3A73B8F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{73435C5E-61E0-8093-500B-B533551C4D7C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

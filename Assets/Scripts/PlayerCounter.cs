@@ -5,7 +5,7 @@ namespace Assets.Scripts
 {
     class PlayerCounter : MonoBehaviour
     {
-        public int PlayerScore = 0;
+        public static int PlayerScore = 0;
         public AudioSource SweetsEaten;
         public AudioClip bite;
 
@@ -21,6 +21,11 @@ namespace Assets.Scripts
             {
                 SweetsEaten.PlayOneShot(bite, 1);
                 PlayerScore += 10;
+            }
+            else if (other.tag == ("IceCream"))
+            {
+                SweetsEaten.PlayOneShot(bite, 1);
+                PlayerScore += 15;
             }
         }
     }

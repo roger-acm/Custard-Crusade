@@ -14,3 +14,19 @@ C:\Users\Roger\Documents\Custard Crusade\Temp\bin\Debug\Assembly-CSharp-firstpas
 C:\Users\Roger\Documents\Custard Crusade\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\Roger\Documents\Custard Crusade\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Roger\Documents\Custard Crusade\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\Roger\Documents\Custard-Crusade\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+C:\Users\Roger\Documents\Custard-Crusade\obj\Debug\Assembly-CSharp-Editor.dll
+C:\Users\Roger\Documents\Custard-Crusade\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Assembly-CSharp-Editor.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\UnityEditor.Graphs.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Assembly-CSharp.pdb

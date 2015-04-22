@@ -10,3 +10,15 @@ C:\Users\Roger\Documents\Custard Crusade\Temp\bin\Debug\ICSharpCode.NRefactory.d
 C:\Users\Roger\Documents\Custard Crusade\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\Roger\Documents\Custard Crusade\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Roger\Documents\Custard Crusade\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Roger\Documents\Custard-Crusade\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Roger\Documents\Custard-Crusade\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\Users\Roger\Documents\Custard-Crusade\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Roger\Documents\Custard-Crusade\obj\Debug\Assembly-CSharp-firstpass.pdb

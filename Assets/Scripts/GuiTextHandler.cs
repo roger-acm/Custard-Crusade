@@ -1,19 +1,28 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
-public class GuiTextHandler : MonoBehaviour {
-
-    //public GameObject gui;
-    static int score = 0;
-    public int test;
-
-	void OnGUI () {
-
-        GUI.Box(new Rect(Screen.height/2, Screen.width/2, 100, 30), "" + score);
-	}
-
-    void Update()
+namespace Assets.Scripts
+{
+    public class GuiTextHandler : MonoBehaviour
     {
-        test = score;
+        public static int score = 0;
+
+        void OnGUI()
+        {
+            GetTextObjectByName("Score").text = "Score: " + score;
+        }
+
+        private Text GetTextObjectByName(string name)
+        {
+            var canvas = GameObject.Find("Canvas");
+            var texts = canvas.GetComponentsInChildren<Text>();
+            return texts[0];
+        }
+
+        void Update()
+        {
+            score = PlayerCounter.PlayerScore;
+        }
     }
 }
