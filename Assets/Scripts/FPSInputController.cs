@@ -28,7 +28,7 @@ public class FPSInputController : MonoBehaviour
 		// Get the input vector from keyboard or analog stick
 		Vector3 directionVector;
 		if (!checkAutoWalk) {
-            directionVector = new Vector3(Input.GetAxis("Horizontal"), 1, Input.GetAxis("Vertical"));
+            directionVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 		} else { 
 			directionVector = new Vector3(0, 0, 1);
 		}
@@ -53,6 +53,6 @@ public class FPSInputController : MonoBehaviour
 		
 		// Apply the direction to the CharacterMotor
 		motor.inputMoveDirection = transform.rotation * directionVector;
-		motor.inputJump = Input.GetButton("Jump");
+        motor.inputJump = Input.GetButton("Jump");
 	}
 }

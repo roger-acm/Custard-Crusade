@@ -67,9 +67,11 @@
      <Compile Include="Assets\Scripts\CardboardMagnetSensor.cs" />
      <Compile Include="Assets\Scripts\CharacterMotor.cs" />
      <Compile Include="Assets\Scripts\FPSInputController.cs" />
+     <Compile Include="Assets\Scripts\FPSInputController2.cs" />
      <Compile Include="Assets\Scripts\GameOverScore.cs" />
      <Compile Include="Assets\Scripts\GuiTextHandler.cs" />
      <Compile Include="Assets\Scripts\MyCollision.cs" />
+     <Compile Include="Assets\Scripts\PlatformInputController.cs" />
      <Compile Include="Assets\Scripts\PlayerCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerCounter.cs" />
      <Compile Include="Assets\Scripts\RandomGenerator.cs" />

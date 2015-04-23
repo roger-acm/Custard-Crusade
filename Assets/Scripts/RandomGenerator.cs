@@ -37,13 +37,14 @@ public class RandomGenerator : MonoBehaviour {
 		for(int i = 0; i < list.Count ;i++)
 		{
             Instantiate((GameObject)list[i], GeneratedPosition(), Quaternion.identity);
+            transform.Rotate(0, 90, 0);
 		}
 	}
 	Vector3 GeneratedPosition()
 	{
 		int x,y,z;
 		x = UnityEngine.Random.Range(min,max);
-		y = UnityEngine.Random.Range(1,max);
+		y = UnityEngine.Random.Range(1,5);
 		z = UnityEngine.Random.Range(min,max);
 		return new Vector3(x,y,z);
 	}

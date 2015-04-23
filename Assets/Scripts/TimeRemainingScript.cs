@@ -20,6 +20,7 @@ public class TimeRemainingScript : MonoBehaviour {
         if (timeBar.fillAmount == 0)
         {
             Application.LoadLevel(2);
+            CardboardMagnetSensor.ResetClick();
         }
 	}
 }
