@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\PlayerCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerCounter.cs" />
      <Compile Include="Assets\Scripts\RandomGenerator.cs" />
+     <Compile Include="Assets\Scripts\SendScoreScript.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
      <Compile Include="Assets\Scripts\TimeRemainingScript.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
