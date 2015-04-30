@@ -44,7 +44,7 @@ public class RandomGenerator : MonoBehaviour {
 	{
 		int x,y,z;
 		x = UnityEngine.Random.Range(min,max);
-		y = UnityEngine.Random.Range(1,5);
+		y = UnityEngine.Random.Range(1,3);
 		z = UnityEngine.Random.Range(min,max);
 		return new Vector3(x,y,z);
 	}

@@ -76,14 +76,19 @@
      <Compile Include="Assets\Scripts\PlayerCounter.cs" />
      <Compile Include="Assets\Scripts\RandomGenerator.cs" />
      <Compile Include="Assets\Scripts\SendScoreScript.cs" />
+     <Compile Include="Assets\Scripts\SendScoreScript2.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
      <Compile Include="Assets\Scripts\TimeRemainingScript.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Cardboard\Resources\GUIScreen.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Parse.Unity\Parse.Unity.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Parse.Unity">
+ <HintPath>C:/Users/Roger/Documents/Custard-Crusade/Assets/Plugins/Parse.Unity.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

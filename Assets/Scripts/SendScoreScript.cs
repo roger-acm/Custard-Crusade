@@ -1,15 +1,17 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 namespace Assets.Scripts
 {
     public class SendScoreScript : MonoBehaviour
     {
+        
 
         void Start()
         {
             int score = PlayerCounter.PlayerScore;
-            string url = "http://www.example.com/unityupdatescript.php?id=ROG&amp;score="+score;
+            string url = "http://custardcrusade.comuf.com/unityuploadscript.php?id=rog&score=" + score;
             WWW www = new WWW(url);
             StartCoroutine(WaitForRequest(www));
         }
@@ -21,11 +23,11 @@ namespace Assets.Scripts
             // check for errors
             if (www.error == null)
             {
-                Debug.Log("WWW Ok!: " + www.text);
+                Debug.Log ("WWW Ok!: " + www.text);
             }
             else
             {
-                Debug.Log("WWW Error: " + www.error);
+                Debug.Log ( "WWW Error: " + www.error);
             }
         }
     }
